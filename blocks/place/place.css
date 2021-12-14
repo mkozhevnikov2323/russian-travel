@@ -1,0 +1,7 @@
+.place {
+  display: grid;
+  grid-template-columns: 47% auto;
+  min-height: 363px;
+  grid-template-rows: minmax(min-content, max-content) auto;
+  gap: 48px 40px;
+}

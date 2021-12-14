@@ -1,0 +1,10 @@
+.place__paragraph {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  margin: 0;
+}
+
+.place__paragraph:not(:first-child) {
+  padding-top: 26px;
+}
