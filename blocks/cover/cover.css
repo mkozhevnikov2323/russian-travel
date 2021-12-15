@@ -4,7 +4,7 @@
   min-height: 740px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 53% auto;;
+  grid-template-rows: 53% auto;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -19,7 +19,7 @@
     width: 100%;
     padding-top: 90px;
     min-height: 480px;
-    grid-template-rows: 59% auto;;
+    grid-template-rows: 59% auto;
   }
 }
 @media screen and (min-width: 425px) and (max-width: 767px) {
@@ -27,7 +27,7 @@
     width: 100%;
     padding-top: 66px;
     min-height: 340px;
-    grid-template-rows: 45% auto;;
+    grid-template-rows: 45% auto;
   }
 }
 
@@ -36,6 +36,6 @@
     width: 100%;
     padding-top: 66px;
     min-height: 200px;
-    grid-template-rows: 45% auto;;
+    grid-template-rows: 45% auto;
   }
 }
