@@ -3,7 +3,7 @@
     margin: 0;
     font-weight: 900;
     font-size: 72px;
-    line-height: 76px;
+    line-height: 1.06;
   }
 }
 
@@ -13,7 +13,7 @@
     margin: 0;
     font-weight: 900;
     font-size: 42px;
-    line-height: 46px;
+    line-height: 1.1;
   }
 }
 
@@ -22,7 +22,7 @@
     margin: 0;
     font-weight: 900;
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.09;
     padding-left: 5%;
   }
 }

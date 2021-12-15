@@ -2,7 +2,7 @@
   .intro__title {
     font-weight: 900;
     font-size: 54px;
-    line-height: 58px;
+    line-height: 1.07;
     margin: 0;
   }
 }
@@ -11,7 +11,7 @@
   .intro__title {
     font-weight: 900;
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.09;
     margin: 0;
   }
 }
