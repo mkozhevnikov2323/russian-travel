@@ -1,0 +1,8 @@
+.cover {
+  width: 92.5%;
+  padding-top: 92px;
+  min-height: 740px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 53% auto;;
+}
