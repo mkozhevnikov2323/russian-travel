@@ -1,17 +1,12 @@
-@media screen and (min-width: 1280px) {
-  .intro {
-    width: 690px;
-    align-self: flex-start;
-    padding-top: 92px;
-    padding-left: 11.5%;
-  }
+.intro {
+  width: 690px;
+  align-self: flex-start;
+  padding-top: 92px;
+  padding-left: 11.5%;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .intro {
-    width: 690px;
-    align-self: flex-start;
-    padding-top: 92px;
     padding-left: 4.5%;
   }
 }

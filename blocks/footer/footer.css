@@ -1,20 +1,14 @@
-@media screen and (min-width: 1280px) {
-  .footer {
-    padding-top: 92px;
-    width: 92.5%;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 24px;
-  }
+.footer {
+  padding-top: 92px;
+  width: 92.5%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .footer {
-    padding-top: 92px;
     width: 91%;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 24px;
   }
 }
 
@@ -22,9 +16,6 @@
   .footer {
     padding-top: 88px;
     width: 94%;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 24px;
   }
 }
 
@@ -32,7 +23,6 @@
   .footer {
     padding-top: 64px;
     width: 90%;
-    display: flex;
     flex-direction: column;
   }
 }
