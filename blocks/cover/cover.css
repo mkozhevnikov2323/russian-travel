@@ -26,7 +26,7 @@
   .cover {
     width: 100%;
     padding-top: 66px;
-    min-height: 260px;
+    min-height: 340px;
     grid-template-rows: 45% auto;;
   }
 }

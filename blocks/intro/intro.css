@@ -15,6 +15,7 @@
   .intro {
     width: 94%;
     padding-top: 88px;
+    padding-left: 3%;
   }
 }
 
@@ -22,5 +23,6 @@
   .intro {
     width: 90%;
     padding-top: 64px;
+    padding-left: 5%;
   }
 }
