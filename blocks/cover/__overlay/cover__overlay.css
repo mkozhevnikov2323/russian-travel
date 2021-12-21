@@ -6,11 +6,21 @@
   height: 100%;
   text-decoration: none;
   color: #fff;
+  background-image: url(../../../images/cover__background.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.cover__overlay::after {
+  content: '';
+  display: block;
   background-color: rgba(42, 44, 47, .3);
+  grid-area: 1 / 1 / 3 / 2;
   transition: .8s;
 }
 
-.cover__overlay:hover {
+.cover__overlay:hover::after {
   background-color: rgba(42, 44, 47, .8);
 }
 

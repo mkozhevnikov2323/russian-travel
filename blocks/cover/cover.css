@@ -1,5 +1,6 @@
 .cover {
-  width: 92.5%;
+  width: 100%;
+  max-width: 1184px;
   padding-top: 92px;
   min-height: 740px;
   display: grid;
@@ -7,35 +8,31 @@
   grid-template-rows: 53% auto;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .cover {
-    width: 100%;
+    max-width: 100%;
     min-height: 640px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .cover {
-    width: 100%;
     padding-top: 90px;
     min-height: 480px;
     grid-template-rows: 59% auto;
   }
 }
-@media screen and (min-width: 425px) and (max-width: 767px) {
+
+@media screen and (max-width: 767px) {
   .cover {
-    width: 100%;
     padding-top: 66px;
     min-height: 340px;
     grid-template-rows: 45% auto;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 424px) {
+@media screen and (max-width: 424px) {
   .cover {
-    width: 100%;
-    padding-top: 66px;
     min-height: 200px;
-    grid-template-rows: 45% auto;
   }
 }

@@ -1,25 +1,27 @@
 .footer {
   padding-top: 92px;
-  width: 92.5%;
+  width: 100%;
+  max-width: 1184px;
   display: flex;
   justify-content: space-between;
   padding-bottom: 24px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .footer {
     width: 91%;
+    max-width: 100%;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .footer {
     padding-top: 88px;
     width: 94%;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .footer {
     padding-top: 64px;
     width: 90%;

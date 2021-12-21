@@ -1,24 +1,23 @@
 .place {
   display: grid;
   grid-template-columns: 47% auto;
-  min-height: 363px;
   grid-template-rows: minmax(min-content, max-content) auto;
   gap: 48px 40px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .place {
     gap: 48px 32px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .place {
     gap: 48px 28px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .place {
     display: flex;
     flex-direction: column;
